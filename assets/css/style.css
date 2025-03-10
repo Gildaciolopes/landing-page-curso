@@ -73,7 +73,6 @@
 }
 .contact-form {
   grid-column: span 2;
-  margin: 2rem;
 }
 .contact-form .form-grid {
   border: none;
@@ -82,11 +81,17 @@
   flex-wrap: wrap;
   gap: var(--gap);
 }
+.form-grid legend {
+  font-style: italic;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
 .form-group {
   flex: 1 1 320px;
 }
 .form-group label {
   display: block;
+  margin-bottom: 1rem;
 }
 .form-group input,
 .form-group textarea {
@@ -96,6 +101,10 @@
   width: 100%;
   font-size: 3rem;
   outline: none;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 10px 2px #696969;
 }
 .form-group button {
   border: 0.5rem solid var(--white-color);
