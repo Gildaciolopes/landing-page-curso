@@ -132,3 +132,7 @@
 .heart {
   color: var(--secondary-color);
 }
+.footer p {
+  margin: 0;
+  padding: 3rem;
+}
