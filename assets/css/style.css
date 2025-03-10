@@ -73,6 +73,7 @@
 }
 .contact-form {
   grid-column: span 2;
+  margin: 2rem;
 }
 .contact-form .form-grid {
   border: none;
@@ -95,4 +96,20 @@
   width: 100%;
   font-size: 3rem;
   outline: none;
+}
+.form-group button {
+  border: 0.5rem solid var(--white-color);
+  background: none;
+  color: var(--white-color);
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.form-group button:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.form-group ::placeholder {
+  color: var(--light-gray-color);
 }
